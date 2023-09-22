@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Http", "Http", "{0479CC8B-2561-44CC-913F-0E5E6439DC22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guide.NET.Http", "Guide.NET.Http\Guide.NET.Http.csproj", "{3FF9CC78-3CF9-4037-9CAB-5CE8E0E6F455}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FF9CC78-3CF9-4037-9CAB-5CE8E0E6F455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF9CC78-3CF9-4037-9CAB-5CE8E0E6F455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF9CC78-3CF9-4037-9CAB-5CE8E0E6F455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF9CC78-3CF9-4037-9CAB-5CE8E0E6F455}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FF9CC78-3CF9-4037-9CAB-5CE8E0E6F455} = {0479CC8B-2561-44CC-913F-0E5E6439DC22}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A65059F-3FB5-4F61-A7F0-971E9C076CCB}
