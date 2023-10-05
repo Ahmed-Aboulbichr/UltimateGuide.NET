@@ -74,6 +74,13 @@ public class HomeController : Controller
     [Route("contact-us/{mobile:regex(^\\d{{10}}$)}")]
     public string Contact()
     {
+        var num = 3;
+        int.TryParse("str", out num);
+
+
         return "Hello from Contact";
     }
+
+
+    
 }
